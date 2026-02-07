@@ -16,9 +16,9 @@ const bodySans = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Documentação ADS",
+  title: "Projeto AMGE",
   description:
-    "Documentação viva para projetos, trabalhos, sprints, processos e escopo.",
+    "Projeto AMGE: documentação do aplicativo móvel de gestão de eventos.",
 };
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
                 <span className="brand-mark" aria-hidden="true" />
                 <div className="brand-text">
                   <span className="brand-kicker">ADS</span>
-                  <span className="brand-title">Documentação de Projetos</span>
+                  <span className="brand-title">Projeto AMGE</span>
                 </div>
               </div>
               <nav className="nav">
