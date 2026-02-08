@@ -32,13 +32,13 @@ export default function RootLayout({
         <div className="page-bg">
           <header className="site-header">
             <div className="container nav-row">
-              <div className="brand">
+              <Link href="/" className="brand" aria-label="Voltar ao inicio">
                 <span className="brand-mark" aria-hidden="true" />
                 <div className="brand-text">
                   <span className="brand-kicker">ADS</span>
                   <span className="brand-title">Projeto AMGE</span>
                 </div>
-              </div>
+              </Link>
               <nav className="nav">
                 <Link href="/escopo">Escopo</Link>
                 <Link href="/sprints">Sprints</Link>
